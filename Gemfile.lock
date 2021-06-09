@@ -1,3 +1,10 @@
+PATH
+  remote: ../rails_upgrader
+  specs:
+    rails_upgrader (0.2.1)
+      rails (~> 3.2)
+      rails-erd (~> 1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,9 +95,6 @@ GEM
       activesupport (>= 3.2)
       choice (~> 0.2.0)
       ruby-graphviz (~> 1.2)
-    rails_upgrader (0.2.1)
-      rails (~> 3.2)
-      rails-erd (~> 1.5)
     railties (3.2.0)
       actionpack (= 3.2.0)
       activesupport (= 3.2.0)
@@ -141,7 +145,7 @@ DEPENDENCIES
   pg (~> 0.11)
   pry-rails
   rails (= 3.2.0)
-  rails_upgrader
+  rails_upgrader!
   sass-rails (~> 3.2.3)
   sqlite3 (~> 1.3.5)
   uglifier (>= 1.0.3)

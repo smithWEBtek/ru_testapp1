@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_filter :set_post, only: [:show]
+  skip_before_filter :create
 
   def index
       @posts = Post.all
@@ -19,6 +21,12 @@ class PostsController < ApplicationController
     else
       render :new
     end
+  end
+    
+  private
+
+  def set_post
+    @post = Post.find_by_id(params[:id])
   end
 
   def post_params
