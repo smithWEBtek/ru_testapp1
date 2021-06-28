@@ -42,6 +42,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
-  gem 'rails_upgrader', path: '~/dev/ombulabs/opensource/rails_upgrader'
+  gem 'rails_upgrader', path: '~/dev/ombulabs/oss/rails_upgrader'
   gem 'pry-rails'
 end
