@@ -1,4 +1,14 @@
 RuTestapp1::Application.routes.draw do
+  get "users/comments"
+
+  get "users/index"
+
+  get "users/show"
+
+  get "comments/index"
+
+  get "comments/show"
+
   resources :posts
 
   # The priority is based upon order of creation:

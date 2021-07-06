@@ -43,5 +43,6 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rails_upgrader', path: '~/dev/ombulabs/oss/rails_upgrader'
+  # gem 'rails_upgrader'
   gem 'pry-rails'
 end
